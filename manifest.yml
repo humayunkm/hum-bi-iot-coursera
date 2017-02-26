@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: hum-bi-iot-coursera
+  host: hum-bi-iot-coursera
+  disk_quota: 1024M
+  services:
+  - hum-bi-iot-coursera-cloudantNoSQLDB
+  - hum-bi-iot-coursera-iotf-service
